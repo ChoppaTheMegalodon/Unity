@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "PythFolio",
+    "slug": "pythfolio",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "pythfolio",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.pythfolio.app",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.pythfolio.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0F0F0F"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": ["expo-router"]
+  }
+}
